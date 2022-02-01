@@ -19,4 +19,4 @@ jobs:
             ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ALTERALSACE_SUIVI_CONSOMMATION
             }}
           channelId: live
-          projectId: alteralsace-suivi-consommation
+          projectId: alexismerienne-curiculum-vitae

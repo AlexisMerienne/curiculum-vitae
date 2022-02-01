@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app" id="app">
     <div class="header">
         <div class="container-title" >
           <div class="before-img" style="height:60px;width:20px"/>
@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style>
-  #app {
+  .app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

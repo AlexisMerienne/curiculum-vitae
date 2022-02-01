@@ -1,0 +1,16 @@
+div[shadow] {
+    border: 0px solid black;
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0 0 0 transparent, 0 0 0 transparent, 6px 4px 25px rgb(37, 37, 37);
+    background: #ffffff;
+}
+div[shadow-little] {
+    border: 0px solid black;
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0 0 0 transparent, 0 0 0 transparent, 3px 2px 12px #d6d6d6;
+    background: #ffffff;
+}

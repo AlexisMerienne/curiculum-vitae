@@ -6,7 +6,7 @@
           <h3>Alexis Mérienne<br></h3>
           <h5>Etudiant en Master 1 d'informatique</h5>
         </div>
-        <img class="my-profile-img" src="../assets/photo-profil-cv.jpg" width="130" height="144">
+        <img class="my-profile-img" src="../../assets/photo-profil-cv.jpg" width="130" height="144">
       </div>
       <div class="activity" style="margin-top : 20px">
       </div>

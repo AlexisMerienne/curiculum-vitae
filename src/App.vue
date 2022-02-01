@@ -25,8 +25,6 @@
 </template>
 
 <script>
-//import CuriculumVue from "./components/Curiculum.vue"
-
 
 
 export default {

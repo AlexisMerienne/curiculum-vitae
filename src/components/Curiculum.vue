@@ -9,7 +9,6 @@
         <img class="my-profile-img" src="../assets/photo-profil-cv.jpg" width="130" height="144">
       </div>
       <div class="activity" style="margin-top : 20px">
-        
       </div>
     </div>
     <div class="my-button" shadow-little="">
@@ -72,7 +71,7 @@ h5 {
   background-color:white;
   margin-top : 70px ;
   width: 35%;
-  min-width: 250px;
+  min-width: 300px;
   text-align: left;
 }
 .nom-et-photo{

@@ -1,6 +1,6 @@
 <template>
   <div class="app" id="app">
-    <div class="header">
+    <div v-if="!isMobile()" class="header">
         <div class="container-title" >
           <div class="before-img" style="height:60px;width:20px"/>
           <div class="navbar-logo" v-on:click="goToHomePage()">
@@ -19,6 +19,30 @@
         <b-button id="button-batiment" variant="outline-dark" v-on:click='goToBatiment()'>
             Compétences principales
         </b-button>
+    </div>
+    <div v-else class="header">
+        <div class="container-title" >
+            <div class="before-img" style="height:60px;width:20px"/>
+            <div v-b-toggle.sidebar-1 class="navbar-logo">
+                <img src="../assets/icons/list.svg" height="50px" width="50px" style="border-radius:7px"/>
+            </div>
+        </div>
+        <b-sidebar id="sidebar-1" title="Sidebar" width="200px" shadow>
+          <div class="px-3 py-2">
+            <p>
+              Home
+            </p>
+            <p>
+              Expérience professionnelles
+            </p>
+            <p>
+              Études
+            </p>
+            <p>
+              Compétences principales
+            </p>
+          </div>
+        </b-sidebar>
     </div>
     <router-view/>
   </div>
@@ -41,6 +65,13 @@ export default {
     },
     goToEtudes(){
       this.$router.push({path : 'etudes'})
+    },
+    isMobile() {
+      if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        return true
+      } else {
+      return false
+      }
     }
   }
 }

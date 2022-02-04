@@ -11,17 +11,17 @@
       <div class="activity" style="margin-top : 20px">
       </div>
     </div>
-    <div class="my-button" shadow-little="">
+    <div class="my-button" >
       <a href="https://www.linkedin.com/in/alexis-m%C3%A9rienne-442948199/" style="color: #1c8c00;text-decoration: none">
         <h5>Linkedin</h5>
       </a>
     </div>
-    <div class="my-button" shadow-little="">
+    <div class="my-button" >
       <a href="https://github.com/AlexisMerienne" style="color: #1c8c00;text-decoration: none">
         <h5>Github</h5>
       </a>
     </div>
-     <div class="my-button" shadow-little="">
+     <div class="my-button" >
       <a href="https://www.facebook.com/alexis.Req1" style="color: #1c8c00;text-decoration: none">
         <h5>Facebook</h5>
       </a>
@@ -99,6 +99,7 @@ h5 {
   border-color: #7aeb7a;
   border-radius : 14px;
   cursor: pointer;
+  background-color: #fff  ;
 }
 .my-button:hover{
   background-color : #bfebbf;

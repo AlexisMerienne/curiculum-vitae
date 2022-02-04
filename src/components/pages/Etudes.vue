@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main" main="">
     <div class="etudes-container" shadow="">
           <h6>&#x25CF; 2019-2022 :  Ecole d’ingénieur spécialité  –  <strong>sciences de l’informatique</strong>Polytech Nice-Sophia<ul/>
           </h6>
@@ -31,7 +31,7 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-items: center;  
 }
 .etudes-container{
   display: flex;

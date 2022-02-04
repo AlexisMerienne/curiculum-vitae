@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main" main="">
     <div class="ex-pro-container" shadow="">
           <h6>&#x25CF; Octobre 2021 - Janvier 2022 - <strong>Alter Alsace Energie</strong> - Stage -  					4 mois<ul/></h6>
           <p>

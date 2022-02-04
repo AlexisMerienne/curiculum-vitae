@@ -14,3 +14,18 @@ div[shadow-little] {
     box-shadow: 0 0 0 transparent, 0 0 0 transparent, 3px 2px 12px #d6d6d6;
     background: #ffffff;
 }
+div[main] {
+    background-color: rgb(37, 37, 37);
+}
+
+body,html {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+html {
+    background-color:rgb(37, 37, 37);
+}
+body {
+    background-color:  rgb(37, 37, 37);
+}

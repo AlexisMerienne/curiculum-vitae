@@ -7,8 +7,8 @@
       "**/node_modules/**"
     ],
     "rewrites": [ {
-      "source": "**",
-      "destination": "dist/index.html"
+      "source": "dist",
+      "destination": "/index.html"
     } ]
   }
 }

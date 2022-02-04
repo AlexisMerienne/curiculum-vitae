@@ -22,4 +22,3 @@ new Vue({
 
 router.replace({ path: '/home', redirect: '/' })
 
-//router.replace({ path: '/home', redirect: '/' })

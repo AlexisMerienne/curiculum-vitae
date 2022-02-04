@@ -37,11 +37,11 @@
               <h6>Expérience professionnelles</h6>
             </div>
             <hr>
-            <div class="side-etudes" v-on:click="goToExperiencePro()">
+            <div class="side-etudes" v-on:click="goToEtudes()">
               <h6>Études</h6>
             </div>
             <hr>
-            <div class="side-comp" v-on:click="goToExperiencePro()">
+            <div class="side-comp" v-on:click="goToCompetences()">
               <h6>Compétences principales</h6>
             </div>
           </div>

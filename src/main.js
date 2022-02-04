@@ -20,5 +20,5 @@ new Vue({
   render: h => h(App),
 }).$mount('#app')
 
-//router.replace({ path: '/home', redirect: '/' })
+router.replace({ path: '/home', redirect: '/' })
 

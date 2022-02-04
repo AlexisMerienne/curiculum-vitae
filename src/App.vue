@@ -12,7 +12,7 @@
           Expérience professionnelles
         </b-button>
           <div class="before-img" style="height:100%;width:10px"/>
-          <b-button id="button-consommation" variant="outline-dark" v-on:click='goToTerritoireConso()'>
+          <b-button id="button-consommation" variant="outline-dark" v-on:click='goToEtudes()'>
            Études
         </b-button>
         <div class="before-img" style="height:100%;width:10px"/>
@@ -38,6 +38,9 @@ export default {
     },
     goToHomePage(){
       this.$router.push({path : 'home'})
+    },
+    goToEtudes(){
+      this.$router.push({path : 'etudes'})
     }
   }
 }

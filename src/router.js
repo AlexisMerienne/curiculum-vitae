@@ -16,6 +16,11 @@ export default new Router({
             name: "experiencepro",
             component: () => import("./components/pages/ExperiencePro")
         },
+        {
+            path: "/etudes",
+            name: "etudes",
+            component: () => import("./components/pages/Etudes")
+        },
     ]
 });
 
